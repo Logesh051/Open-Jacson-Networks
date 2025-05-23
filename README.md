@@ -1,7 +1,6 @@
 # Series Queues with infinite capacity - Open Jackson Network
-# NAME:Logesh.N.A
-
-# REG NO:212223240078
+## NAME:Logesh.N.A
+## REG NO:212223240078
 
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
@@ -54,10 +53,7 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     Ws=Ls/(3*lam)
     print("Average number of objects in the system S1 : %0.2f "%Ls1)
     print("Average number of objects in the system S2 : %0.2f "%Ls2)
-    print("Average number of objects in the system S3 : %0.2f "%Ls3)
-    print("Average number of objects in the overall system    : %0.2f "%Ls)
-    print("Average number of objects in the conveyor S1  :  %0.2f "%Lq1)
-    print("Average number of objects in the conveyor S2  :  %0.2f "%Lq2)
+    prin the conveyor S2  :  %0.2f "%Lq2)
     print("Average number of objects in the conveyor S3  :  %0.2f "%Lq3)
     print("Average waiting time of an object in the conveyor S1 : %0.2f secs"%Wq1)
     print("Average waiting time of an object in the conveyor S2 : %0.2f secs"%Wq2)
